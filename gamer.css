@@ -1,3 +1,14 @@
-.h1{
-    background-color: rgb(189, 107, 151);
+.pink{
+    color: rgb(227, 22, 114);
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
+}
+.navbar img{
+    width: 50px;
+    height:30px;
+    
 }
