@@ -31,6 +31,7 @@
 }
 .nav-link-icon{
     display: flex;
+    gap: 5px;
     align-items: center;
     justify-content: center;
     padding: 2px 5px;
@@ -126,11 +127,15 @@
     display: grid;
     grid-template-columns: repeat(4,250px);
     justify-content: center; 
-    
     gap: 15px;
     
 }
+.cards img:hover{
+    filter: brightness(63%);
+    border: 4px solid rgb(17, 17, 21);
+    border-radius: 22px;
 
+}
 .cards img{
     height: 300px;
     width: 250px;
@@ -169,7 +174,7 @@
 }
 .play-instantly-images-2 img{
    
-width: 70%;
+    width: 70%;
 }
 
 .kind-of-games{
@@ -206,6 +211,7 @@ width: 70%;
     align-items: center;
     text-align: center;
     justify-content: center;
+    padding: 10px;
 }
 .footer-pic{
     display: flex;
@@ -237,7 +243,7 @@ width: 70%;
 }
 
 
-/* responsive */
+/* mobile responsive */
 
 @media screen and (max-width: 576px) {
     header{
@@ -330,6 +336,10 @@ width: 70%;
 /* tablet responsive */
 
 @media screen and (min-width:576px) and (max-width:960px) {
+   body{
+    align-items: center;
+    justify-content: center;
+   }
     header{
         padding: 5px 15px;
     }
@@ -395,7 +405,7 @@ width: 70%;
     }
     .btn{
         display: grid;
-        grid-template-columns: repeat(3,200px);
+        grid-template-columns: repeat(2,200px);
         padding: 3px 4px;
     }
     .kind-of-games{
