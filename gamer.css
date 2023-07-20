@@ -271,7 +271,8 @@ width: 70%;
     }
     .gamer-description{
         width: 350px;
-    }.cards{
+    }
+    .cards{
         display: grid;
         grid-template-columns: repeat(1,250px);
         justify-content: center; 
@@ -326,3 +327,92 @@ width: 70%;
 
 }
 
+/* tablet responsive */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 5px 15px;
+    }
+    .headers , .navbar-primary {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:1rem;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 5px 8px;
+        justify-content: center;
+    }
+    .banner-image img{
+        width: 550px;
+    }
+    .banner-title-color{
+        font-size: 100px;
+    }
+    .banner-description{
+        width: 550px;
+        justify-content: center;
+    }
+    .gamer{
+        flex-direction: column;
+        margin: 4px 8px;
+    }
+    .gamer-image img{
+        width: 550px;
+    }
+    .gamer-title-color{
+        font-size: 55px;
+    }
+    .gamer-description{
+        width: 550px;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,250px);
+        justify-content: center; 
+        margin: 5px 4px;
+    }
+    .online-games-description{
+        width: 550px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .play-instantly-images-div{
+        margin-top: 40px;
+    } 
+    .plays{
+        position: relative;
+        bottom: 100px;
+    }
+    .play-instantly-images-2 {
+        margin-left: 80px;
+    }
+    .btn{
+        display: grid;
+        grid-template-columns: repeat(3,200px);
+        padding: 3px 4px;
+    }
+    .kind-of-games{
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .kind-of-games img{
+      width: 40px;
+    }
+    .buttons{
+        margin:0 2%;
+        padding: 5px 15px;
+        border-radius:50px;
+        border: none;
+        width:180px;
+    }
+
+
+}
