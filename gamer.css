@@ -1,4 +1,10 @@
-
+body{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rajdhani', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
 .headers{
     margin: 0 auto;
     padding: 0 15%;
